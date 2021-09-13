@@ -15,8 +15,8 @@
 
 <!-- Social: Twitter -->
 <meta name="twitter:card" content="<?=$headimage; ?>" />
-<meta name="twitter:site" content="@belomorie" />
-<meta name="twitter:creator" content="belomorie" />
+<meta name="twitter:site" content="@kargopol" />
+<meta name="twitter:creator" content="kargopol" />
 <meta name="twitter:title" content="<?=$title;?>" />
 <meta name="twitter:description" content="<?=$description; ?>" />
 <meta name="twitter:image:src" content="<?=$headimage; ?>" />

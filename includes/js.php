@@ -11,85 +11,72 @@
 <script src="js/throwpropsplugin.min.js"></script>
 <script src="js/common.js"></script>
 <script src="js/custom.js"></script>
-
 <script src="js/pinch-zoom.js" type="text/javascript"></script>
 
-<script src="http://hammerjs.github.io/dist/hammer.min.js" type="text/javascript"></script>
+<!-- hammer.js -->
+<!-- <script src="http://hammerjs.github.io/dist/hammer.min.js" type="text/javascript"></script> -->
+<!-- <script>
 
-<script >
-$(function () {
+	function ignoreEvent(e) {
+		e.preventDefault();
+		e.stopImmediatePropagation();
+		if (e.preventManipulation) {
+			e.preventManipulation();
+		}
+		return false;
+	}
 
-    Draggable.create(".drag", {
-        type: "x,y",
-        edgeResistance: 0.65,
-        bounds: "body",
-        //zIndexBoost: false,
-        throwProps: true
-    });
+	document.addEventListener("touchstart", ignoreEvent, false);
+	document.addEventListener("pointerdown", ignoreEvent, false);
 
-    
+	document.body.addEventListener('touchmove', function (event) {
+		event.preventDefault();
+	}, false);
+	let stage = document.getElementById('stage');
 
+	let mc = new Hammer.Manager(stage);
+	let pan = new Hammer.Pan();
+	let rotate = new Hammer.Rotate();
+	let pinch = new Hammer.Pinch();
 
-});
+	mc.add([pan, pinch, rotate]);
+	mc.get('pinch').set({
+		enable: true
+	});
+	mc.get('rotate').set({
+		enable: true
+	});
 
-function ignoreEvent(e) {
-  e.preventDefault();
-  e.stopImmediatePropagation();
-  if (e.preventManipulation) {
-    e.preventManipulation();
-  }
-  return false;
-}
-document.addEventListener("touchstart", ignoreEvent, false);
-document.addEventListener("pointerdown", ignoreEvent, false);
+	let adjustDeltaX = 0;
+	let adjustDeltaY = 0;
+	let adjustScale = 1;
+	let adjustRotation = 0;
 
-document.body.addEventListener('touchmove', function(event) {
-  event.preventDefault();
-}, false);
-let stage = document.getElementById('stage');
+	let currentDeltaX = null;
+	let currentDeltaY = null;
+	let currentScale = null;
+	let currentRotation = null;
 
-let mc = new Hammer.Manager(stage);
-let pan = new Hammer.Pan();
-let rotate = new Hammer.Rotate();
-let pinch = new Hammer.Pinch();
+	mc.on("panstart pinchstart rotatestart", function (e) {
+		adjustRotation -= e.rotation;
+	});
 
-mc.add([pan, pinch, rotate]);
-mc.get('pinch').set({ enable: true });
-mc.get('rotate').set({ enable: true });
+	mc.on("panmove pinchmove rotatemove", function (e) {
+		currentRotation = adjustRotation + e.rotation;
+		currentScale = adjustScale * e.scale;
+		currentDeltaX = adjustDeltaX + (e.deltaX / currentScale);
+		currentDeltaY = adjustDeltaY + (e.deltaY / currentScale);
 
-let adjustDeltaX = 0;
-let adjustDeltaY = 0;
-let adjustScale = 1;
-let adjustRotation = 0;
+		let transforms = ['scale(' + currentScale + ')'];
+		transforms.push('translate(' + currentDeltaX + 'px,' + currentDeltaY + 'px)');
+		transforms.push('rotate(' + Math.round(currentRotation) + 'deg)');
+		stage.style.transform = transforms.join(' ');
+	});
 
-let currentDeltaX = null;
-let currentDeltaY = null;
-let currentScale = null;
-let currentRotation = null;
-
-mc.on("panstart pinchstart rotatestart", function(e) {
-  adjustRotation -= e.rotation;
-});
-
-mc.on("panmove pinchmove rotatemove", function(e) {
-  currentRotation = adjustRotation + e.rotation;
-  currentScale = adjustScale * e.scale;
-  currentDeltaX = adjustDeltaX + (e.deltaX / currentScale);
-  currentDeltaY = adjustDeltaY + (e.deltaY / currentScale);
-
-  let transforms = ['scale(' + currentScale + ')'];
-  transforms.push('translate(' + currentDeltaX + 'px,' + currentDeltaY + 'px)');
-  transforms.push('rotate(' + Math.round(currentRotation) + 'deg)');
-  stage.style.transform = transforms.join(' ');
-});
-
-mc.on("panend pinchend rotateend", function(e) {
-  adjustScale = currentScale;
-  adjustRotation = currentRotation;
-  adjustDeltaX = currentDeltaX;
-  adjustDeltaY = currentDeltaY;
-});
-
-
-</script>
-
+	mc.on("panend pinchend rotateend", function (e) {
+		adjustScale = currentScale;
+		adjustRotation = currentRotation;
+		adjustDeltaX = currentDeltaX;
+		adjustDeltaY = currentDeltaY;
+	});
+</script>  -->
