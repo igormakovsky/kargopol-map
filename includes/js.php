@@ -12,10 +12,11 @@
 <script src="js/common.js"></script>
 <script src="js/custom.js"></script>
 <script src="js/pinch-zoom.js" type="text/javascript"></script>
+<script src="/js/pinch-zoom.umd.js" type="text/javascript"></script>
 
 <!-- hammer.js -->
-<!-- <script src="http://hammerjs.github.io/dist/hammer.min.js" type="text/javascript"></script> -->
-<!-- <script>
+<!-- <script src="http://hammerjs.github.io/dist/hammer.min.js" type="text/javascript"></script>
+<script>
 
 	function ignoreEvent(e) {
 		e.preventDefault();

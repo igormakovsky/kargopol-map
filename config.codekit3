@@ -97,6 +97,29 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/img/kargopol-house-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/kargopol-house-1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/img/kargopol-map.jpg": {
+		"ft": 16384,
+		"iS": 17737080,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/kargopol-map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/img/map-1.png": {
 		"ft": 32768,
 		"iS": 196008,
@@ -532,14 +555,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"/rotate.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/rotate.php",
-		"oF": 0
-		},
 	"/scss/_animations.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -683,28 +698,36 @@
 		"oS": 0,
 		"sct": 1
 		},
+	"/test-1.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/test-1.php",
+		"oF": 0
+		},
+	"/test-3.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/test-3.php",
+		"oF": 0
+		},
+	"/test-rotate.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/test-rotate.php",
+		"oF": 0
+		},
 	"/test.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/test.php",
-		"oF": 0
-		},
-	"/test2.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/test2.php",
-		"oF": 0
-		},
-	"/test3.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/test3.php",
 		"oF": 0
 		},
 	"/vars.php": {
@@ -2131,7 +2154,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "map.ru.test",
+	"externalServerAddress": "kargopol-map.test",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "$, alert",

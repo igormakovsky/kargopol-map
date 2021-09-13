@@ -63,3 +63,15 @@
         }
     }
 }
+
+.object {
+    mix-blend-mode: multiply;
+    transition: opacity, 1000;
+    opacity: 1;
+    img {
+        width: 130%;
+    }
+    :hover {
+        opacity: 0;
+    }
+}
