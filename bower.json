@@ -1,0 +1,49 @@
+{
+  "name": "my-new-project",
+  "authors": [
+    "John Doe <john@doe.com> (http://johndoe.com)"
+  ],
+  "description": "CodeKit automatically generated this file. You should customize it according to: https://github.com/bower/spec/blob/master/json.md",
+  "main": [
+    "index.html",
+    "main.js"
+  ],
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
+  ],
+  "keywords": [
+    "none"
+  ],
+  "license": "MIT",
+  "homepage": "https://google.com",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/foo/bar.git"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": true,
+  "dependencies": {
+    "waypoints": "^4.0.1",
+    "owl.carousel": "^2.3.4",
+    "html5shiv": "^3.7.3",
+    "font-awsome": "^5.3.1",
+    "fancybox": "^3.5.1",
+    "animate.css": "^3.7.0",
+    "isInViewport": "^3.0.4",
+    "normalize-css": "^8.0.0",
+    "slick-carousel": "^1.8.1",
+    "jquery.countdown": "^2.2.0",
+    "gsap": "^2.1.2",
+    "PreloadJS": "createjs-preloadjs#^1.0.1"
+  }
+}

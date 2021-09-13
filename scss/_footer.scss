@@ -1,0 +1,131 @@
+///
+.f {
+    @extend section;
+    width: 100vw; //max-width: 1350px;
+    .expert-container {
+        display: flex;
+        justify-content: space-around;
+        .expert {
+            width: 33%;
+            padding-right: 1rem;
+            p {
+                font-size: .75rem;
+                &.review {
+                    font-size: 1rem;
+                    &:before {
+                        content: '«';
+                    }
+                    &:after {
+                        content: '»';
+                    }
+                }
+            }
+            .expert-face {
+                img {
+                    border-radius: 50%;
+                    width: 100px;
+                }
+            }
+        }
+    }
+    &-social {
+        display: flex;
+        justify-content: space-around;
+        &__element {
+            text-align: center;
+            width: 20%;
+        }
+    }
+    &-practices {
+        margin: 0 auto;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        .f-practices-link {
+            border-bottom: none;
+        }
+        .card {
+            width: 15rem;
+            padding: 0 1.5rem;
+            line-height: 1;
+            height: 15rem;
+            transition: all .5s;
+            border-bottom: none;
+            &.hide {
+                pointer-events: none;
+                opacity: .3;
+                display: none;
+            }
+            p {
+                line-height: 1;
+            }
+            &:hover {
+                //background-color: $black;
+                .card-town {
+                    color: $light;
+                }
+                .card-title {
+                    color: $light;
+                }
+            }
+            &-town {
+                display: block;
+            }
+            &-title {
+                font-size: 1rem;
+                line-height: 1rem;
+            }
+        }
+    }
+    &-town {
+        max-width: 1350px;
+        &.active {
+            pointer-events: none;
+            display: none;
+        }
+    }
+    &-contactinfo {
+        height: 10rem;
+        background-color: $black;
+        &__container {
+            width: 70%;
+            margin: 0 auto;
+            padding-top: 1.5rem;
+            display: flex;
+            justify-content: flex-start;
+            .logo {
+                width: 7rem;
+                transition: transform .3s;
+                &:hover {
+                    transform: scale(1.05);
+                }
+                img {
+                    width: 100%;
+                }
+            }
+            .thanks {
+                &_1 {
+                    width: 50%;
+                    color: $light;
+                    padding: 0 3rem;
+                    p {
+                        font-size: .85rem;
+                        margin-top: 0;
+                    }
+                    &__year {
+                        display: block;
+                        margin-top: 1rem;
+                    }
+                }
+                &_2 {
+                    width: 15%;
+                    color: $light;
+                    p {
+                        font-size: .85rem;
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
+    }
+}
