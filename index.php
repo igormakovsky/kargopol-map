@@ -18,7 +18,7 @@ require $docroot . 'includes/top.php';
 <article>
 	<pinch-zoom class="absolute" min-scale='0.25' max-scale='1.5'>
 		<div style="height:4746px; width:8993px;">
-			<img src="/img/kargopol-map.jpg" alt="">
+			<img src="/img/kargopol-map-opt.wepb" alt="">
 			<div class="absolute object" style="top:2155px; left:4834px;">
 				<img src="/img/kargopol-house-1.svg" alt="">
 			</div>
