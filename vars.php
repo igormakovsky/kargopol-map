@@ -39,7 +39,7 @@ $copyright = date("Y").'Игорь Маковский';
 $keywords = 'каргополь, фамилия, кластер, дома, история, карта, асмысл';
 $author = 'Игорь Маковский';
 $author_facebook = 'igor.makovsky';
-$author_google = '';
+$author_google = 'igormakovsky';
 $description = 'Карта исторического центра Каргополя с информацией обо всех интересных зданиях';
 
 ?>
