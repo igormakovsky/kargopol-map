@@ -35,6 +35,170 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/favicon\/android-chrome-192x192.png" : {
+      "ft" : 32768,
+      "iS" : 7404,
+      "oA" : 0,
+      "oAP" : "\/favicon\/android-chrome-192x192.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/favicon\/android-chrome-512x512.png" : {
+      "ft" : 32768,
+      "iS" : 20289,
+      "oA" : 0,
+      "oAP" : "\/favicon\/android-chrome-512x512.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/favicon\/apple-touch-icon.png" : {
+      "ft" : 32768,
+      "iS" : 7115,
+      "oA" : 0,
+      "oAP" : "\/favicon\/apple-touch-icon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/favicon\/browserconfig.xml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/favicon\/browserconfig.xml",
+      "oF" : 0
+    },
+    "\/favicon\/favicon-16x16.png" : {
+      "ft" : 32768,
+      "iS" : 1135,
+      "oA" : 0,
+      "oAP" : "\/favicon\/favicon-16x16.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/favicon\/favicon-32x32.png" : {
+      "ft" : 32768,
+      "iS" : 2143,
+      "oA" : 0,
+      "oAP" : "\/favicon\/favicon-32x32.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/favicon\/favicon.ico" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/favicon\/favicon.ico",
+      "oF" : 0
+    },
+    "\/favicon\/mstile-70x70.png" : {
+      "ft" : 32768,
+      "iS" : 5024,
+      "oA" : 0,
+      "oAP" : "\/favicon\/mstile-70x70.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/favicon\/mstile-144x144.png" : {
+      "ft" : 32768,
+      "iS" : 14646,
+      "oA" : 0,
+      "oAP" : "\/favicon\/mstile-144x144.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/favicon\/mstile-150x150.png" : {
+      "ft" : 32768,
+      "iS" : 13911,
+      "oA" : 0,
+      "oAP" : "\/favicon\/mstile-150x150.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/favicon\/mstile-310x150.png" : {
+      "ft" : 32768,
+      "iS" : 14885,
+      "oA" : 0,
+      "oAP" : "\/favicon\/mstile-310x150.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/favicon\/mstile-310x310.png" : {
+      "ft" : 32768,
+      "iS" : 31152,
+      "oA" : 0,
+      "oAP" : "\/favicon\/mstile-310x310.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/favicon\/safari-pinned-tab.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/favicon\/safari-pinned-tab.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
+    },
+    "\/favicon\/site.webmanifest" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/favicon\/site.webmanifest",
+      "oF" : 0
+    },
     "\/fonts\/belomorie-script\/belomorie-script.woff" : {
       "cB" : 0,
       "ft" : 8192,
@@ -159,7 +323,7 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/img\/church\/3-nik_chudotvorets-0.JPG" : {
+    "\/img\/church\/3-nik_chudotvorets-0.jpg" : {
       "ft" : 16384,
       "iS" : 3207530,
       "jF" : 0,
@@ -601,7 +765,7 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/img\/house\/3-fadeev-0.JPG" : {
+    "\/img\/house\/3-fadeev-0.jpg" : {
       "ft" : 16384,
       "iS" : 801315,
       "jF" : 0,
@@ -614,7 +778,7 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/img\/house\/4-pakulev-0.JPG" : {
+    "\/img\/house\/4-pakulev-0.jpg" : {
       "ft" : 16384,
       "iS" : 4589070,
       "jF" : 0,
@@ -1082,7 +1246,7 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/img\/house\/21-lehov-0.JPG" : {
+    "\/img\/house\/21-lehov-0.jpg" : {
       "ft" : 16384,
       "iS" : 148253,
       "jF" : 0,
@@ -1173,6 +1337,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/house\/24-live-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 466243,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/house\/24-live-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/house\/25-ozerov-0.jpg" : {
       "ft" : 16384,
       "iS" : 273933,
@@ -1218,6 +1395,19 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/img\/house\/27-nosov-0.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/house\/27-nosov-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 390783,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/house\/27-nosov-1.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1346,22 +1536,9 @@
       "plM" : 3758088159,
       "prP" : 0
     },
-    "\/img\/kargopol-map-opt.jpg" : {
-      "ft" : 16384,
-      "iS" : 9064441,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/img\/kargopol-map-opt.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/img\/kargopol-map-opt.webp" : {
       "ft" : 8388608,
-      "iS" : 7076054,
+      "iS" : 6972568,
       "oA" : 0,
       "oAP" : "\/img\/kargopol-map-opt.webp",
       "oF" : 0,
@@ -1383,13 +1560,100 @@
       "q" : 81,
       "rq" : 75
     },
-    "\/includes\/bottom.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
+    "\/img\/pins\/kargopol-pin-church-dark.png" : {
+      "ft" : 32768,
+      "iS" : 21570,
       "oA" : 0,
-      "oAP" : "\/includes\/bottom.php",
-      "oF" : 0
+      "oAP" : "\/img\/pins\/kargopol-pin-church-dark.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/pins\/kargopol-pin-church-light.png" : {
+      "ft" : 32768,
+      "iS" : 21509,
+      "oA" : 0,
+      "oAP" : "\/img\/pins\/kargopol-pin-church-light.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/pins\/kargopol-pin-fish-light-0.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/pins\/kargopol-pin-fish-light-0.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
+    },
+    "\/img\/pins\/kargopol-pin-fish-light-1.png" : {
+      "ft" : 32768,
+      "iS" : 26233,
+      "oA" : 0,
+      "oAP" : "\/img\/pins\/kargopol-pin-fish-light-1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/pins\/kargopol-pin-house-dark.png" : {
+      "ft" : 32768,
+      "iS" : 16901,
+      "oA" : 0,
+      "oAP" : "\/img\/pins\/kargopol-pin-house-dark.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/pins\/kargopol-pin-house-light.png" : {
+      "ft" : 32768,
+      "iS" : 17324,
+      "oA" : 0,
+      "oAP" : "\/img\/pins\/kargopol-pin-house-light.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/switch-historic.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/switch-historic.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
+    },
+    "\/img\/switch-modern.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/switch-modern.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
     },
     "\/includes\/css.php" : {
       "cB" : 0,
@@ -1405,14 +1669,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/includes\/favicon.php",
-      "oF" : 0
-    },
-    "\/includes\/footer.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/includes\/footer.php",
       "oF" : 0
     },
     "\/includes\/header.php" : {
@@ -1439,20 +1695,20 @@
       "oAP" : "\/includes\/meta.php",
       "oF" : 0
     },
-    "\/includes\/top.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/includes\/top.php",
-      "oF" : 0
-    },
     "\/index.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/index.php",
+      "oF" : 0
+    },
+    "\/interactive.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/interactive.php",
       "oF" : 0
     },
     "\/js\/common.js" : {
@@ -1583,156 +1839,6 @@
       "pME" : 1,
       "rFN" : 0,
       "uCM" : 0
-    },
-    "\/scss\/_animations.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/css\/_animations.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
-    "\/scss\/_color.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/css\/_color.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
-    "\/scss\/_fonts.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/css\/_fonts.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
-    "\/scss\/_footer.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/css\/_footer.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
-    "\/scss\/_header.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/css\/_header.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
-    "\/scss\/_hero-image.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/css\/_hero-image.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
-    "\/scss\/_index.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/css\/_index.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
-    "\/scss\/_interactive.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/css\/_interactive.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
-    "\/scss\/_retinajs.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/css\/_retinajs.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
-    "\/scss\/_shorthands.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/css\/_shorthands.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
     },
     "\/scss\/main.scss" : {
       "aP" : 1,
