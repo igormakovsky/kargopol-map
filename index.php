@@ -417,7 +417,8 @@ require $docroot . 'includes/header.php';
 				}).addTo(map).bindPopup(L.popup(popupOpt).setContent(i.content));
 				p.on('click', function (e) {
 					let w = width / 2;
-					let h = (height / 2) + 150;
+					let h_offset = width < 800 ? 250 : 150;
+					let h = (height / 2) + h_offset;
 					map.panToOffset(e.target.getLatLng(), [w, h], {
 						"animate": true
 					});

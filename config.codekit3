@@ -1538,26 +1538,13 @@
     },
     "\/img\/kargopol-map-opt.webp" : {
       "ft" : 8388608,
-      "iS" : 6972568,
+      "iS" : 7001620,
       "oA" : 0,
       "oAP" : "\/img\/kargopol-map-opt.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-default",
-      "rq" : 75
-    },
-    "\/img\/kargopol-map.jpg" : {
-      "ft" : 16384,
-      "iS" : 11742293,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/img\/kargopol-map-merged-opt.jpg",
-      "oF" : 2,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-default",
-      "q" : 81,
       "rq" : 75
     },
     "\/img\/pins\/kargopol-pin-church-dark.png" : {
